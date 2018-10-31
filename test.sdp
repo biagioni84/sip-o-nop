@@ -1,0 +1,7 @@
+m=audio 50022 RTP/AVP 0 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+m=video 50024 RTP/AVP 97
+a=rtpmap:97 H264/90000
+a=fmtp:97 profile-level-id=42e01f;packetization-mode=1
+a=sendrecv
